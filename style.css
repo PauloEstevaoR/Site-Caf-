@@ -15,7 +15,7 @@ body{
 .Menu{
   text-decoration: none;
   list-style-type: none;
- 
+  cursor: pointer;
  }
  a{
   text-decoration: none;
@@ -57,10 +57,60 @@ h3{
 }
 .MS01{
   text-align: center;
+  position: relative;
+}
+.MS02{
+  text-align: center;
+  position: relative;
+}
+.MS03{
+  text-align: center;
+  position: relative;
+}
+.btn01 {
+  position: absolute;
+  bottom: 20px;       /* posiciona o botão no rodapé das imagens */
+  left: 60%;
+  transform: translateX(-50%);
+  padding: 14px 24px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.btn02 {
+ position: absolute;
+  bottom: 20px;       /* posiciona o botão no rodapé das imagens */
+  left: 60%;
+  transform: translateX(-50%);
+  padding: 14px 24px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.btn03 {
+ position: absolute;
+  bottom: 20px;       /* posiciona o botão no rodapé das imagens */
+  left: 60%;
+  transform: translateX(-50%);
+  padding: 14px 24px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container01{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .MS{
-  height: 220px;
-  width: 200px;
+  height: 250px;
+  width: 270px;
   margin: 10px;
   border-radius: 20px;
  
@@ -70,6 +120,7 @@ h3{
  transition: transform 0.3s ease;
    transform: scale(1.2);
 }
+ 
 .footer{
   display: grid;
   background-color: rgb(75, 22, 22);
